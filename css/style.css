@@ -1,0 +1,169 @@
+/* Basic Reset & Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container for content */
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header & Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hero Section Specifics */
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #e9e9e9;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+
+/* Certification Item Specifics */
+.certification-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.certification-item h2 {
+    color: #333;
+    margin-top: 0;
+    text-align: left; /* Adjust heading alignment for certs */
+}
+
+.certification-item .platform,
+.certification-item .issue-date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.certificate-display {
+    text-align: center; /* Center the image within its container */
+    margin-bottom: 15px;
+}
+
+.certification-item img {
+    max-width: 100%; /* Ensures images are responsive and don't overflow */
+    height: auto;
+    display: block; /* Removes extra space below image and allows margin auto */
+    margin: 0 auto; /* Centers the image */
+    border: 1px solid #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.certification-item p {
+    margin-bottom: 10px;
+}
+
+.certification-item a {
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+}
+
+.certification-item a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px; /* Matches main container if desired */
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
